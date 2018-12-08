@@ -282,7 +282,7 @@ nav li a:hover { border-top: 1px solid #01aadf; }
 /* works section starts here */
 
 .works {
-  padding: 80px 0 20px;
+  padding-top: 80px;
   background-color: #fff;
   text-align: center;
 }
@@ -305,6 +305,8 @@ nav li a:hover { border-top: 1px solid #01aadf; }
   color: #fff;
 }
 
+.work { margin-top: 27px; }
+
 .work > li {
   width: 25%;
   margin-right: -5px;
@@ -321,16 +323,25 @@ nav li a:hover { border-top: 1px solid #01aadf; }
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 180, 153, .8);
-  /* display: none; */
+  background-color: rgba(0, 180, 153, .9);
+  display: none;
 }
 
 .work .overlay picture {
-  width: 10%;
+  width: 21%;
   margin: 0 auto;
+  display: inline-block;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .work .description {
+  margin-top: 21px;
   display: block;
   color: #f0f9f9;
   font-size: 16px;
@@ -338,7 +349,13 @@ nav li a:hover { border-top: 1px solid #01aadf; }
 }
 
 .work .photography {
+  margin-top: 3px;
   display: block;
   color: #cbeee8;
   font-size: 13px;
+}
+
+.work li:hover .overlay {
+  display: block;
+  cursor: pointer;
 }
