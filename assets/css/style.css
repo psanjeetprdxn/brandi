@@ -359,3 +359,22 @@ nav li a:hover { border-top: 1px solid #01aadf; }
   display: block;
   cursor: pointer;
 }
+
+/* team section starts here */
+.teams {
+  padding: 82px 0 60px;
+  text-align: center;
+}
+
+.teams .section-description { margin-top: 30px; }
+
+.team li {
+  width: 23%;
+  margin-right: calc(2.7% - 5px);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.team li:last-child {
+  margin-right: 0;
+}
