@@ -277,3 +277,68 @@ nav li a:hover { border-top: 1px solid #01aadf; }
 }
 
 .feature .dots { margin-top: 60px; }
+
+
+/* works section starts here */
+
+.works {
+  padding: 80px 0 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.works .wrapper { width: 100%; }
+.works .section-description { margin-top: 28px; }
+.works-menu { margin-top: 35px; }
+.works-menu li { display: inline-block; }
+
+.works-menu li a {
+  padding: 8px 16px 6px;
+  border-radius: 5px;
+  color: #102233;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.works-menu a:hover {
+  background-color: #2db296;
+  color: #fff;
+}
+
+.work > li {
+  width: 25%;
+  margin-right: -5px;
+  display: inline-block;
+  position: relative;
+}
+
+.work > li:nth-child(4n) { margin-right: 0; }
+
+.work .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 180, 153, .8);
+  /* display: none; */
+}
+
+.work .overlay picture {
+  width: 10%;
+  margin: 0 auto;
+}
+
+.work .description {
+  display: block;
+  color: #f0f9f9;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.work .photography {
+  display: block;
+  color: #cbeee8;
+  font-size: 13px;
+}
