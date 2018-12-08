@@ -157,6 +157,34 @@ a {
   margin: 10px auto 0;
 }
 
+.dots > li {
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.dots > li:last-child {
+  margin-right: 0;
+}
+
+.dots > li > span {
+	display: inline-block;
+  color: #fff;
+  cursor: pointer;
+	text-indent: -9999px;
+	transition: all .6s;
+}
+
+.dots > li > span::before {
+	content: '\f111';
+	float: right;
+	font-family: "Font Awesome 5 Free";
+	font-size: 7px;
+	font-weight: 900;
+	text-indent: 0;
+}
+
+.dots > li > span:hover { color: #000; }
+
 /* header styling start here */
 
 header {
